@@ -2,7 +2,7 @@
 import "./PokemonCard.css";
 import { useFlip } from "./hook";
 
-/* Renders a single pokemon card. */
+/* Renders a pokemon card. */
 function PokemonCard({ front, back, name, stats }) {
   const [isFacingUp, flip] = useFlip();
 

@@ -20,6 +20,7 @@ const useAxios = (formatter) => {
         );
         const data = formatter(response.data);
         
+        
         setResults(results => [...results, { ...data, id: uuid() }]);
     };
     const resetResults = () => {
